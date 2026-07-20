@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Frontend Development with React",
+    "organization": "Coursera",
+    "date": "May 2026",
+    "image": "/assets/certificate-1.svg",
+    "credentialLink": "https://example.com"
+  },
+  {
+    "title": "Node.js and Express Essentials",
+    "organization": "Udemy",
+    "date": "January 2026",
+    "image": "/assets/certificate-2.svg",
+    "credentialLink": "https://example.com"
+  },
+  {
+    "title": "Responsive Web Design",
+    "organization": "freeCodeCamp",
+    "date": "August 2025",
+    "image": "/assets/certificate-3.svg",
+    "credentialLink": "https://example.com"
+  }
+]

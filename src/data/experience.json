@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Started Learning Web Development",
+    "subtitle": "Built a strong foundation in HTML, CSS, and JavaScript",
+    "period": "2023",
+    "type": "Milestone"
+  },
+  {
+    "title": "Focused on Frontend Development",
+    "subtitle": "Explored responsive design, UI components, and interactive web experiences",
+    "period": "2024",
+    "type": "Career"
+  },
+  {
+    "title": "Worked with React and Tailwind CSS",
+    "subtitle": "Built modern frontend projects using React, Tailwind CSS, and reusable components",
+    "period": "2025",
+    "type": "Milestone"
+  },
+  {
+    "title": "Master of Computer Applications (MCA)",
+    "subtitle": "Studying software development, databases, programming, and modern web technologies at NIET Greater Noida",
+    "period": "2024 - 2026",
+    "type": "Education"
+  },
+  {
+    "title": "Building Interactive Portfolio Projects",
+    "subtitle": "Strengthening frontend skills through React-based projects and polished portfolio development",
+    "period": "2026",
+    "type": "Career"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "HTML",
+    "category": "Frontend",
+    "level": 92,
+    "icon": "html5"
+  },
+  {
+    "name": "CSS",
+    "category": "Frontend",
+    "level": 90,
+    "icon": "css3"
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "Frontend",
+    "level": 91,
+    "icon": "tailwind"
+  },
+  {
+    "name": "Bootstrap",
+    "category": "Frontend",
+    "level": 86,
+    "icon": "css3"
+  },
+  {
+    "name": "JavaScript",
+    "category": "Frontend",
+    "level": 88,
+    "icon": "javascript"
+  },
+  {
+    "name": "React",
+    "category": "Frontend",
+    "level": 89,
+    "icon": "react"
+  },
+  {
+    "name": "Java",
+    "category": "Backend",
+    "level": 76,
+    "icon": "java"
+  },
+  {
+    "name": "Node.js",
+    "category": "Backend",
+    "level": 82,
+    "icon": "node"
+  },
+  {
+    "name": "Express",
+    "category": "Backend",
+    "level": 80,
+    "icon": "server"
+  },
+  {
+    "name": "SQL",
+    "category": "Database",
+    "level": 82,
+    "icon": "database"
+  },
+  {
+    "name": "MySQL",
+    "category": "Database",
+    "level": 78,
+    "icon": "database"
+  },
+  {
+    "name": "MongoDB",
+    "category": "Database",
+    "level": 81,
+    "icon": "mongodb"
+  },
+  {
+    "name": "Git",
+    "category": "Tools",
+    "level": 86,
+    "icon": "git"
+  },
+  {
+    "name": "GitHub",
+    "category": "Tools",
+    "level": 88,
+    "icon": "github"
+  },
+  {
+    "name": "VS Code",
+    "category": "Tools",
+    "level": 94,
+    "icon": "vscode"
+  },
+  {
+    "name": "Netlify",
+    "category": "Tools",
+    "level": 83,
+    "icon": "cloud"
+  }
+]

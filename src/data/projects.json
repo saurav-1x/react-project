@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Nova Commerce",
+    "slug": "nova-commerce",
+    "description": "A premium e-commerce experience focused on fast browsing, rich micro-interactions, and conversion-friendly UI.",
+    "features": [
+      "Advanced product filtering and sorting",
+      "Animated product quick view modal",
+      "Wishlist, cart, and checkout experience"
+    ],
+    "technologies": ["React", "Tailwind CSS", "Framer Motion", "Node.js"],
+    "category": "React",
+    "image": "/assets/project-1.svg",
+    "liveDemo": "https://example.com",
+    "github": "https://github.com/"
+  },
+  {
+    "id": 2,
+    "title": "Insight Dashboard",
+    "slug": "insight-dashboard",
+    "description": "A responsive analytics dashboard with KPI tracking, user segmentation, and elegant dark-mode data visualization.",
+    "features": [
+      "Reusable chart cards",
+      "Role-based views",
+      "Responsive data tables"
+    ],
+    "technologies": ["React", "JavaScript", "Tailwind CSS"],
+    "category": "JavaScript",
+    "image": "/assets/project-2.svg",
+    "liveDemo": "https://example.com",
+    "github": "https://github.com/"
+  },
+  {
+    "id": 3,
+    "title": "Talent Hub",
+    "slug": "talent-hub",
+    "description": "A recruiting portal for candidates, recruiters, and interview workflows with an emphasis on usability and clarity.",
+    "features": [
+      "Application tracking pipeline",
+      "Profile completion system",
+      "Interview scheduler"
+    ],
+    "technologies": ["React", "Express", "MongoDB"],
+    "category": "MongoDB",
+    "image": "/assets/project-3.svg",
+    "liveDemo": "https://example.com",
+    "github": "https://github.com/"
+  },
+  {
+    "id": 4,
+    "title": "FinEdge",
+    "slug": "finedge",
+    "description": "A fintech landing and dashboard hybrid designed to communicate trust, speed, and clarity for modern financial products.",
+    "features": [
+      "Motion-rich onboarding flow",
+      "Accessibility-first forms",
+      "Personalized insights module"
+    ],
+    "technologies": ["React", "Tailwind CSS", "MySQL"],
+    "category": "Tailwind CSS",
+    "image": "/assets/project-4.svg",
+    "liveDemo": "https://example.com",
+    "github": "https://github.com/"
+  },
+  {
+    "id": 5,
+    "title": "Wander Atlas",
+    "slug": "wander-atlas",
+    "description": "A travel discovery platform with immersive destinations, saved itineraries, and clean visual storytelling.",
+    "features": [
+      "Destination search and filters",
+      "Saved trip collections",
+      "Interactive destination cards"
+    ],
+    "technologies": ["React", "Framer Motion", "Node.js"],
+    "category": "Node.js",
+    "image": "/assets/project-5.svg",
+    "liveDemo": "https://example.com",
+    "github": "https://github.com/"
+  },
+  {
+    "id": 6,
+    "title": "DevConnect",
+    "slug": "devconnect",
+    "description": "A social platform concept for developers to showcase projects, share updates, and discover collaborators.",
+    "features": [
+      "Project showcase feed",
+      "Follow and connect system",
+      "Interactive profile pages"
+    ],
+    "technologies": ["React", "Express", "MongoDB", "Tailwind CSS"],
+    "category": "Express",
+    "image": "/assets/project-6.svg",
+    "liveDemo": "https://example.com",
+    "github": "https://github.com/"
+  }
+]

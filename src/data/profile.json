@@ -1,0 +1,62 @@
+{
+  "name": "Saurav Kumar",
+  "headline": "MCA student and frontend developer focused on building interactive, responsive, and modern web experiences with React.",
+  "roles": [
+    "Frontend Developer",
+    "React Developer",
+    "JavaScript Enthusiast",
+    "MCA Student"
+  ],
+  "email": "sauravkumar.dev@email.com",
+  "phone": "+91 98765 43210",
+  "location": "Greater Noida, Uttar Pradesh, India",
+  "githubUsername": "sauravkumar",
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/",
+      "icon": "twitter"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/",
+      "icon": "instagram"
+    }
+  ],
+  "about": {
+    "intro": "I am an MCA student at NIET Greater Noida and a frontend developer who enjoys creating interactive, clean, and responsive web interfaces.",
+    "objective": "My goal is to start my career as a frontend developer where I can use React, JavaScript, Tailwind CSS, Bootstrap, and modern UI practices to build impactful user experiences.",
+    "journey": "My journey began with HTML and CSS, then grew into JavaScript, React, Tailwind CSS, Bootstrap, Java, and SQL. As I kept learning, I became especially interested in frontend development and in building websites that feel smooth, modern, and user-friendly."
+  },
+  "stats": [
+    {
+      "label": "Projects Completed",
+      "value": 10
+    },
+    {
+      "label": "Technologies Learned",
+      "value": 12
+    },
+    {
+      "label": "Certifications",
+      "value": 4
+    }
+  ],
+  "education": [
+    {
+      "title": "Master of Computer Applications (MCA)",
+      "institution": "Noida Institute of Engineering and Technology (NIET), Greater Noida",
+      "period": "2024 - 2026"
+    }
+  ]
+}
