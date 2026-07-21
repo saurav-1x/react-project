@@ -10,13 +10,7 @@
   "email": "sauravkumar.dev@email.com",
   "phone": "+91 98765 43210",
   "location": "Greater Noida, Uttar Pradesh, India",
-  "githubUsername": "sauravkumar",
   "socials": [
-    {
-      "label": "GitHub",
-      "url": "https://github.com/",
-      "icon": "github"
-    },
     {
       "label": "LinkedIn",
       "url": "https://linkedin.com/",

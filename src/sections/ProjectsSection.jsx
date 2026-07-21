@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { useMemo, useState } from "react";
-import { FiExternalLink, FiGithub, FiSearch } from "react-icons/fi";
+import { useEffect, useMemo, useState } from "react";
+import { FiExternalLink, FiSearch } from "react-icons/fi";
 import Button from "../components/Button";
 import FilterChips from "../components/FilterChips";
 import GlassCard from "../components/GlassCard";
@@ -54,19 +54,6 @@ function ProjectCard({ project, onOpen }) {
                 Live Demo
               </span>
             </Button>
-            <Button
-              as="a"
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              magnetic={false}
-              className="bg-transparent"
-            >
-              <span className="flex items-center gap-2">
-                <FiGithub />
-                GitHub
-              </span>
-            </Button>
             <Button onClick={() => onOpen(project)} magnetic={false} className="bg-transparent">
               Details
             </Button>
@@ -81,6 +68,7 @@ export default function ProjectsSection() {
   const [filter, setFilter] = useState("All");
   const [search, setSearch] = useState("");
   const [activeProject, setActiveProject] = useState(null);
+  const [showAll, setShowAll] = useState(false);
 
   const filteredProjects = useMemo(() => {
     return projects.filter((project) => {
@@ -89,6 +77,12 @@ export default function ProjectsSection() {
       return matchesFilter && value.includes(search.toLowerCase());
     });
   }, [filter, search]);
+
+  useEffect(() => {
+    setShowAll(false);
+  }, [filter, search]);
+
+  const visibleProjects = showAll ? filteredProjects : filteredProjects.slice(0, 3);
 
   return (
     <section id="projects" className="px-4 py-24 sm:px-6 lg:px-8">
@@ -114,7 +108,7 @@ export default function ProjectsSection() {
         </div>
 
         <div className="mt-12 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-          {filteredProjects.map((project, index) => (
+          {visibleProjects.map((project, index) => (
             <motion.div
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
@@ -126,6 +120,18 @@ export default function ProjectsSection() {
             </motion.div>
           ))}
         </div>
+
+        {filteredProjects.length > 3 && (
+          <div className="mt-8 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setShowAll((prev) => !prev)}
+              className="rounded-full border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-cyan-300/60 hover:text-white"
+            >
+              {showAll ? "View less" : "View more"}
+            </button>
+          </div>
+        )}
 
         <ProjectModal project={activeProject} onClose={() => setActiveProject(null)} />
       </div>

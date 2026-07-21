@@ -4,7 +4,6 @@ import SkillsSection from "../sections/SkillsSection";
 import ProjectsSection from "../sections/ProjectsSection";
 import ExperienceSection from "../sections/ExperienceSection";
 import CertificationsSection from "../sections/CertificationsSection";
-import GithubSection from "../sections/GithubSection";
 import ResumeSection from "../sections/ResumeSection";
 import TestimonialsSection from "../sections/TestimonialsSection";
 import ContactSection from "../sections/ContactSection";
@@ -20,7 +19,6 @@ export default function HomePage() {
       <ProjectsSection />
       <ExperienceSection />
       <CertificationsSection />
-      <GithubSection />
       <ResumeSection />
       <TestimonialsSection />
       <ContactSection />

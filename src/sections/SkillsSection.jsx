@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   FaCss3Alt,
   FaDatabase,
   FaGitAlt,
-  FaGithub,
   FaHtml5,
   FaJava,
   FaJs,
@@ -31,7 +30,6 @@ const iconMap = {
   database: FaDatabase,
   mongodb: SiMongodb,
   git: FaGitAlt,
-  github: FaGithub,
   vscode: VscVscode,
   cloud: SiNetlify,
 };
@@ -66,10 +64,18 @@ function CircularProgress({ value }) {
 
 export default function SkillsSection() {
   const [filter, setFilter] = useState("All");
+  const [showAll, setShowAll] = useState(false);
+
   const filteredSkills = useMemo(
     () => skills.filter((skill) => filter === "All" || skill.category === filter),
     [filter]
   );
+
+  useEffect(() => {
+    setShowAll(false);
+  }, [filter]);
+
+  const visibleSkills = showAll ? filteredSkills : filteredSkills.slice(0, 3);
 
   return (
     <section id="skills" className="px-4 py-24 sm:px-6 lg:px-8">
@@ -83,7 +89,7 @@ export default function SkillsSection() {
         <FilterChips options={categories} active={filter} onChange={setFilter} />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {filteredSkills.map((skill, index) => {
+          {visibleSkills.map((skill, index) => {
             const Icon = iconMap[skill.icon] ?? FaReact;
             return (
               <motion.div
@@ -121,6 +127,18 @@ export default function SkillsSection() {
             );
           })}
         </div>
+
+        {filteredSkills.length > 3 && (
+          <div className="mt-8 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setShowAll((prev) => !prev)}
+              className="rounded-full border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-cyan-300/60 hover:text-white"
+            >
+              {showAll ? "View less" : "View more"}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

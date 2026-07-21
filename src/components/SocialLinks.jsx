@@ -1,12 +1,6 @@
-import {
-  FiGithub,
-  FiInstagram,
-  FiLinkedin,
-  FiTwitter,
-} from "react-icons/fi";
+import { FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const iconMap = {
-  github: FiGithub,
   linkedin: FiLinkedin,
   twitter: FiTwitter,
   instagram: FiInstagram,
@@ -16,7 +10,7 @@ export default function SocialLinks({ links, className = "" }) {
   return (
     <div className={`flex items-center gap-3 ${className}`}>
       {links.map((social) => {
-        const Icon = iconMap[social.icon] ?? FiGithub;
+        const Icon = iconMap[social.icon] ?? FiLinkedin;
         return (
           <a
             key={social.label}

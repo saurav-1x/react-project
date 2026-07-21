@@ -1,23 +1,23 @@
 [
   {
     "title": "Frontend Development with React",
-    "organization": "Coursera",
+    "organization": "Udemy",
     "date": "May 2026",
-    "image": "/assets/certificate-1.svg",
-    "credentialLink": "https://example.com"
+    "image": "/assets/certificate-1.pdf",
+    "credentialLink": "https://www.udemy.com/certificate/UC-12e542ae-4842-4c8f-a202-b13d5081230c/"
   },
   {
-    "title": "Node.js and Express Essentials",
+    "title": "Node.js",
     "organization": "Udemy",
     "date": "January 2026",
     "image": "/assets/certificate-2.svg",
-    "credentialLink": "https://example.com"
+    "credentialLink": "hhttps://www.udemy.com/certificate/UC-12e542ae-4842-4c8f-a202-b13d5081230c/"
   },
   {
     "title": "Responsive Web Design",
     "organization": "freeCodeCamp",
     "date": "August 2025",
     "image": "/assets/certificate-3.svg",
-    "credentialLink": "https://example.com"
+    "credentialLink": "https://www.freecodecamp.org/certification/saurav_1x/responsive-web-design"
   }
 ]

@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { FiExternalLink, FiGithub, FiX } from "react-icons/fi";
+import { FiExternalLink, FiX } from "react-icons/fi";
 import Button from "./Button";
 
 export default function ProjectModal({ project, onClose }) {
@@ -65,18 +65,6 @@ export default function ProjectModal({ project, onClose }) {
                   <span className="flex items-center gap-2">
                     <FiExternalLink />
                     Live Demo
-                  </span>
-                </Button>
-                <Button
-                  as="a"
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="bg-transparent"
-                >
-                  <span className="flex items-center gap-2">
-                    <FiGithub />
-                    GitHub
                   </span>
                 </Button>
               </div>
